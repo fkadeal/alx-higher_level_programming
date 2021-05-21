@@ -10,9 +10,9 @@ def add_integer(a, b=98):
         
         args if b is not integer and if it is float first must be converted to int  """
 
-    if not isinstance(a,int) and not isinstance(a,float):
+    if not isinstance(a,(int, float)):
         raise TypeError ("a is a must be an integer")
-    elif not isinstance(b,int) and not isinstance(b,float):
+    elif not isinstance(b,(int, float)):
         raise TypeError ("b is a must be an integer")
     if isinstance(b,float):
         bb = int(b)
