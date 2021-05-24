@@ -6,3 +6,4 @@ class Rectangle:
     def Rectangle():
         """ Rectangle function that do noting"""
         pass
+    
