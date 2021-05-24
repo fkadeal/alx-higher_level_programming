@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+<<<<<<< HEAD
 """
 def matrix_divided(matrix, div):
     #matrix divided function
@@ -16,6 +17,8 @@ def matrix_divided(matrix, div):
         #if type(x) is not int or type(x) is not float:
             #raise TypeError("matrix must be a matrix (list of lists) of integers/floats")
         print(x/div) """
+=======
+>>>>>>> 78f4dc2c6d27843f85bf5d0bb94edd26c8f3848a
 """Module containing function to divide 2d matrix elementwise.
 
 Not directly executable, but can be imported.
