@@ -3,7 +3,6 @@
 
 
 class Rectangle:
-    def Rectangle():
-        """ Rectangle function that do noting"""
+        """ Rectangle class that do noting"""
         pass
     
