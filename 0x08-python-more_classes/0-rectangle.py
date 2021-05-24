@@ -5,4 +5,3 @@
 class Rectangle:
         """ Rectangle class that do noting"""
         pass
-    
