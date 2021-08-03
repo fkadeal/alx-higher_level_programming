@@ -1,5 +1,5 @@
 #!/usr/bin/node
-  var argv = args.length
+  var argv = process.argv.length;
 if(argv == 1){
 console.log('Argument found');
 }
