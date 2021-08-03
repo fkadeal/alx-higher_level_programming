@@ -1,12 +1,11 @@
 #!/usr/bin/node
-  var argv = process.argv.length;
-if(argv == 1){
+  var _argv = process.argv.length;
+if(_argv == 1){
 console.log('Argument found');
 }
-  if(argv == 0){
+  if(_argv == 0){
   console.log('No argument');
 }
-  if(argv > 1){
+  if(_argv > 1){
   console.log('Argument found');
 }
-
