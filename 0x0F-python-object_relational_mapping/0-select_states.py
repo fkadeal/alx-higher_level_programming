@@ -16,7 +16,7 @@ cursor.execute(sql)
 result = cursor.fetchall()
 for state in result:
     print(state) 
-  """
+"""
    # Fetch all the rows in a list of lists.
    results = cursor.fetchall()
    for row in results:
