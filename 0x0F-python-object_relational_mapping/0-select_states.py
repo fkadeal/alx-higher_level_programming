@@ -12,7 +12,7 @@ sql = "SELECT * FROM state "
     [print(state) for state in c.fetchall()]
 try:
    # Execute the SQL command """
-   cursor.execute(sql)
+cursor.execute(sql)
 for state in cursor.fetchall()
     print(state) 
   """
