@@ -6,14 +6,14 @@ import MySQLdb
 "opening database connaction "
 if __name__ == "__main__":
 
-    db= MySQLdb.connect(user=sys.argv[1], passwd=sys.argv[2], db=sys.argv[3])
+    db = MySQLdb.connect(user=sys.argv[1], passwd=sys.argv[2], db=sys.argv[3])
     cursor = db.cursor()
 
     sql = "SELECT * FROM states "
     cursor.execute(sql)
     result = cursor.fetchall()
     for state in result:
-        print(state) 
+        print(state)
     db.close()
 """c.execute("SELECT * FROM `states`")
     [print(state) for state in c.fetchall()]
