@@ -14,7 +14,7 @@ try:
    # Execute the SQL command """
 cursor.execute(sql)
 result = cursor.fetchall()
-for state in result
+for state in result:
     print(state) 
   """
    # Fetch all the rows in a list of lists.
