@@ -7,7 +7,7 @@ import MySQLdb
 db= MySQLdb.connect("localhost", "root","root","hbtn_0e_0_usa")
 cursor = db.cursor()
 
-sql = "SELECT * FROM state "
+sql = "SELECT * FROM states "
 """c.execute("SELECT * FROM `states`")
     [print(state) for state in c.fetchall()]
 try:
