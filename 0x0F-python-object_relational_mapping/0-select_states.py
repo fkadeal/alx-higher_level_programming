@@ -13,7 +13,8 @@ sql = "SELECT * FROM state "
 try:
    # Execute the SQL command
    cursor.execute(sql)
-  print(state) for state in cursor.fetchall()
+  for state in cursor.fetchall()
+    print(state) 
   """
    # Fetch all the rows in a list of lists.
    results = cursor.fetchall()
