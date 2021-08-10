@@ -4,18 +4,23 @@ import sys
 import MySQLdb
 
 "opening database connaction "
-db= MySQLdb.connect(user=sys.argv[1], passwd=sys.argv[2], db=sys.argv[3])
-cursor = db.cursor()
+if __name__ == "__main__":
 
-sql = "SELECT * FROM states "
+    db= MySQLdb.connect(user=sys.argv[1], passwd=sys.argv[2], db=sys.argv[3])
+    cursor = db.cursor()
+
+    sql = "SELECT * FROM states "
+    cursor.execute(sql)
+    result = cursor.fetchall()
+    for state in result:
+        print(state) 
+    db.close()
 """c.execute("SELECT * FROM `states`")
     [print(state) for state in c.fetchall()]
 try:
    # Execute the SQL command """
-cursor.execute(sql)
-result = cursor.fetchall()
-for state in result:
-    print(state) 
+
+
 """
    # Fetch all the rows in a list of lists.
    results = cursor.fetchall()
@@ -32,7 +37,7 @@ except:
    print "Error: unable to fecth data"
 
 # disconnect from server"""
-db.close()
+
 """
 #!/usr/bin/python3
 # Lists all states from the database hbtn_0e_0_usa.
