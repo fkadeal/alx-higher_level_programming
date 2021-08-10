@@ -9,11 +9,11 @@ cursor = db.cursor()
 
 sql = "SELECT * FROM state "
 """c.execute("SELECT * FROM `states`")
-    [print(state) for state in c.fetchall()]"""
+    [print(state) for state in c.fetchall()]
 try:
-   # Execute the SQL command
+   # Execute the SQL command """
    cursor.execute(sql)
-  for state in cursor.fetchall()
+for state in cursor.fetchall()
     print(state) 
   """
    # Fetch all the rows in a list of lists.
@@ -26,11 +26,11 @@ try:
       income = row[4]
       # Now print fetched result
       print "fname=%s,lname=%s,age=%d,sex=%s,income=%d" % \
-             (fname, lname, age, sex, income )"""
+             (fname, lname, age, sex, income )
 except:
    print "Error: unable to fecth data"
 
-# disconnect from server
+# disconnect from server"""
 db.close()
 """
 #!/usr/bin/python3
