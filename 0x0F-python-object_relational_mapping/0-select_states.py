@@ -4,7 +4,7 @@
 import MySQLdb
 
 "opening database connaction "
-db= MySQLdb.connect("localhost:3306", "root","root","hbtn_0e_0_usa")
+db= MySQLdb.connect("localhost", "root","root","hbtn_0e_0_usa")
 cursor = db.cursor()
 
 sql = "SELECT * FROM state "
