@@ -2,3 +2,4 @@
 File 
 0-script.js file changes the color for 'header' tage by selecting 
 1-script.js update or change color for 'header'tag using jquery
+2-script.js use's jquery api to change element property on clice
