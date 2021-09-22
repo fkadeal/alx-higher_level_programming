@@ -8,3 +8,4 @@ File
 5-script.js use's jquery api to add item to the document UL li on click
 6-script.js use's jquery api to update header content on click
 7-script.js use's jquery to fetch api and update div content from fetched data
+8-script.js fetch and add items to data list form api using jquery
