@@ -4,3 +4,4 @@ File
 1-script.js update or change color for 'header'tag using jquery
 2-script.js use's jquery api to change element property on clice
 3-script.js use's jquery api to change class name for 'header' element on click
+4-script.js use's jquery api to change between two class name's of 'header' element on click
