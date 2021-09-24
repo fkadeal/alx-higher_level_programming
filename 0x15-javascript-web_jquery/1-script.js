@@ -1,1 +1,1 @@
-i$("header").css('color', 'red');
+$('header').css('color', 'red');
